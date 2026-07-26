@@ -32,8 +32,23 @@ def upload_raw_data_to_snowflake():
     for idx, match_file in enumerate(csv_files):
         with zip_data.open(match_file) as f:
             df_match = pd.read_csv(f, low_memory=False, dtype={'season': str})
-            
+
         df_match.columns = df_match.columns.str.strip().str.replace(' ', '_').str.upper()
+
+        # DELIVERY_SEQ preserves the exact chronological order deliveries appear in the
+        # source CSV (cricsheet rows are already in play order). This gives us a reliable
+        # tiebreaker downstream for deliveries that share the same BALL value (wides/no-balls
+        # don't advance the over.ball counter, so ORDER BY BALL alone is not deterministic).
+        df_match['DELIVERY_SEQ'] = range(len(df_match))
+
+        # Defensive fallback: some cricsheet CSV vintages don't include a MATCH_ID column
+        # (the id lives in the filename instead). Never let MATCH_ID silently end up null.
+        file_match_id = os.path.splitext(os.path.basename(match_file))[0]
+        if 'MATCH_ID' not in df_match.columns:
+            df_match['MATCH_ID'] = file_match_id
+        else:
+            df_match['MATCH_ID'] = df_match['MATCH_ID'].fillna(file_match_id)
+
         master_df_list.append(df_match)
         
         if (idx + 1) % 200 == 0:
@@ -47,7 +62,8 @@ def upload_raw_data_to_snowflake():
     # --- SCHEMA FIX INTERCEPTOR ---
     # Define the precise list of columns our Snowflake database schema accepts
     target_columns = [
-        'MATCH_ID', 'SEASON', 'START_DATE', 'VENUE', 'INNINGS', 'BALL',
+        'MATCH_ID', 'SEASON', 'START_DATE', 'VENUE', 'INNINGS', 'BALL', 'DELIVERY_SEQ',
+        'ACTUAL_DELIVERY',
         'BATTING_TEAM', 'BOWLING_TEAM', 'STRIKER', 'NON_STRIKER', 'BOWLER',
         'RUNS_OFF_BAT', 'EXTRAS', 'WIDES', 'NOBALLS', 'BYES', 'LEGBYES', 'PENALTY',
         'WICKET_TYPE', 'PLAYER_DISMISSED', 'OTHER_WICKET_TYPE', 'OTHER_PLAYER_DISMISSED'
@@ -61,6 +77,13 @@ def upload_raw_data_to_snowflake():
     # Explicitly filter the dataframe down to contain ONLY the target table configuration layout
     print("🧹 Aligning DataFrame matrix directly to production warehouse schema...")
     final_raw_df = final_raw_df[target_columns]
+    final_raw_df = (
+        final_raw_df.sort_values(['MATCH_ID', 'INNINGS', 'DELIVERY_SEQ'])
+        .drop_duplicates(subset=['MATCH_ID', 'INNINGS', 'BALL'], keep='first')
+        .reset_index(drop=True)
+    )
+    if final_raw_df.duplicated(['MATCH_ID', 'INNINGS', 'BALL']).any():
+        raise ValueError("Duplicate deliveries remain after ingestion deduplication")
 
     print("🔌 Connecting securely to the Snowflake Cloud Data Platform...")
     try:
@@ -81,7 +104,8 @@ def upload_raw_data_to_snowflake():
     print("🧱 Initializing staging landing structures...")
     cursor.execute("""
     CREATE OR REPLACE TABLE RAW_DELIVERIES (
-        MATCH_ID INT, SEASON VARCHAR, START_DATE VARCHAR, VENUE VARCHAR, INNINGS INT, BALL FLOAT,
+        MATCH_ID VARCHAR, SEASON VARCHAR, START_DATE VARCHAR, VENUE VARCHAR, INNINGS INT, BALL FLOAT,
+        DELIVERY_SEQ INT, ACTUAL_DELIVERY FLOAT,
         BATTING_TEAM VARCHAR, BOWLING_TEAM VARCHAR, STRIKER VARCHAR, NON_STRIKER VARCHAR, BOWLER VARCHAR,
         RUNS_OFF_BAT INT, EXTRAS INT, WIDES INT, NOBALLS INT, BYES INT, LEGBYES INT, PENALTY INT,
         WICKET_TYPE VARCHAR, PLAYER_DISMISSED VARCHAR, OTHER_WICKET_TYPE VARCHAR, OTHER_PLAYER_DISMISSED VARCHAR

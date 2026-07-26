@@ -80,6 +80,8 @@ A trained Scikit-Learn model predicts the probability of the next delivery resul
 - Wicket
 
 Predictions are generated instantly using encoded player information and live match features.
+The granular forecast also reports dot, one, two, three, four, six, dismissal,
+and expected-runs probabilities from historical deliveries.
 
 ---
 
@@ -91,8 +93,25 @@ The dashboard ranks bowlers based on:
 
 - Wicket Threat
 - Boundary Leakage
+- Expected Runs Conceded
+- Dot-Ball Pressure
+- Multi-Over Bowling Plans
+- Bowling Quota and Consecutive-Over Constraints
+- Automatic Historical Batting-Order Progression
+- Monte Carlo Plan Validation and Alternatives
+- Persistent Bowling-Plan Caching
+- CSV and PDF Plan Exports
 - Historical Matchups
 - Career Bowling Statistics
+
+---
+
+### Model Operations
+
+- Held-out and forward-season validation metrics
+- Automatic data/model drift checks
+- Retraining alerts when freshness or error thresholds are exceeded
+- Compatibility facades for previously serialized model artifacts
 
 ---
 
@@ -111,6 +130,14 @@ The dashboard ranks bowlers based on:
 ---
 
 # 📂 Project Structure
+
+Analytics code is exposed through focused modules:
+
+- `src/feature_context.py` for feature frames and venue normalization
+- `src/model_components.py` for serializable estimators and adapters
+- `src/probability.py` for evidence blending and chase probabilities
+- `src/strategy.py` for bowling optimization and simulations
+- `src/analytics.py` as the backward-compatible public facade
 
 ```text
 Cricket_Analytics_IPL/

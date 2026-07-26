@@ -1,0 +1,808 @@
+PLAYER,BATTING_HAND,BOWLING_TYPE,PLAYING_ROLE,COUNTRY,IS_ACTIVE
+A Ashish Reddy,Right hand Bat,Right arm Medium,Allrounder,India,False
+A Badoni,Right hand Bat,Right arm Offbreak,Batter,India,True
+A Chandila,Right hand Bat,Right arm Offbreak,Allrounder,India,False
+A Chopra,Right hand Bat,"Right arm Medium, Right arm Offbreak",Batter,India,False
+A Choudhary,Right hand Bat,Left arm Medium,Bowler,India,False
+A Dananjaya,Left hand Bat,"Right arm Offbreak, Legbreak",Allrounder,Sri Lanka,False
+A Flintoff,Right hand Bat,Right arm Fast medium,Allrounder,England,False
+A Kamboj,Right hand Bat,Right arm Medium,Allrounder,India,True
+A Kumble,Right hand Bat,Legbreak Googly,Bowler,India,False
+A Manohar,Right hand Bat,Legbreak Googly,Batting Allrounder,India,False
+A Mhatre,Unknown,Unknown,Unknown,Unknown,True
+A Mishra,Right hand Bat,Legbreak,Bowler,India,False
+A Mithun,Right hand Bat,Right arm Medium,Bowler,India,False
+A Mukund,Left hand Bat,Legbreak Googly,Top order Batter,India,False
+A Nehra,Right hand Bat,Left arm Medium fast,Bowler,India,False
+A Nel,Right hand Bat,Right arm Fast medium,Bowler,South Africa,False
+A Nortje,Right hand Bat,Right arm Fast,Bowler,South Africa,True
+A Raghuvanshi,Right-hand bat,Slow left-arm orthodox,Unknown,India,True
+A Singh,Right hand Bat,Right arm Medium fast,Bowler,India,False
+A Symonds,Right hand Bat,"Right arm Medium, Right arm Offbreak",Allrounder,Australia,False
+A Tomar,Right hand Bat,Right arm Offbreak,Opening Batter,India,False
+A Uniyal,Left hand Bat,Left arm Medium,Unknown,India,False
+A Zampa,Right hand Bat,Legbreak Googly,Bowler,Australia,False
+AA Bilakhia,Right hand Bat,Right arm Medium,Unknown,India,False
+AA Chavan,Left hand Bat,Slow Left arm Orthodox,Batter,India,False
+AA Jhunjhunwala,Right hand Bat,Right arm Offbreak,Batter,India,False
+AA Kazi,Left hand Bat,Slow Left arm Orthodox,Bowler,India,False
+AA Kulkarni,Right-hand bat,Right-arm medium,Unknown,India,True
+AA Noffke,Right hand Bat,Right arm Fast medium,Allrounder,Australia,False
+AB Agarkar,Right hand Bat,Right arm Fast,Bowler,India,False
+AB Barath,Right hand Bat,Right arm Offbreak,Opening Batter,West Indies,False
+AB Dinda,Right hand Bat,Right arm Medium fast,Bowler,India,False
+AB McDonald,Right hand Bat,Right arm Fast medium,Allrounder,Australia,False
+AB de Villiers,Right hand Bat,Right arm Medium,Wicketkeeper Batter,South Africa,False
+AC Blizzard,Left hand Bat,Left arm Medium,Batter,Australia,False
+AC Gilchrist,Left hand Bat,Right arm Offbreak,Wicketkeeper Batter,Australia,False
+AC Thomas,Right hand Bat,Right arm Fast medium,Bowler,South Africa,False
+AC Voges,Right hand Bat,Slow Left arm Orthodox,Top order Batter,Australia,False
+AD Hales,Right hand Bat,Right arm Medium,Opening Batter,England,False
+AD Mascarenhas,Right hand Bat,Right arm Fast medium,Allrounder,England,False
+AD Mathews,Right hand Bat,Right arm Medium,Allrounder,Sri Lanka,False
+AD Nath,Right hand Bat,Right arm Medium fast,Middle order Batter,India,False
+AD Russell,Right hand Bat,Right arm Fast,Allrounder,West Indies,False
+AF Milne,Right hand Bat,Right arm Fast,Bowler,New Zealand,True
+AG Murtaza,Left hand Bat,Slow Left arm Orthodox,Bowler,India,False
+AG Paunikar,Right hand Bat,Unknown,Wicketkeeper Batter,India,False
+AJ Finch,Right hand Bat,Slow Left arm Orthodox,Top order Batter,Australia,False
+AJ Hosein,Left hand Bat,Slow Left arm Orthodox,Bowler,West Indies,True
+AJ Turner,Right hand Bat,Right arm Offbreak,Middle order Batter,Australia,False
+AJ Tye,Right hand Bat,Right arm Medium fast,Bowler,Australia,False
+AK Markram,Right hand Bat,Right arm Offbreak,Opening Batter,South Africa,True
+AL Menaria,Left hand Bat,Slow Left arm Orthodox,Allrounder,India,False
+AM Ghazanfar,Right-hand bat,Right-arm offbreak,Unknown,Afghanistan,True
+AM Nayar,Left hand Bat,Right arm Medium,Allrounder,India,False
+AM Rahane,Right hand Bat,Right arm Medium,Top order Batter,India,True
+AM Salvi,Right hand Bat,Right arm Medium,Bowler,India,False
+AN Ahmed,Right hand Bat,Right arm Medium fast,Bowler,India,False
+AN Ghosh,Right hand Bat,Right arm Medium,Batter,India,False
+AP Dole,Right hand Bat,Right arm Medium fast,Bowler,India,False
+AP Majumdar,Right hand Bat,Legbreak Googly,Unknown,India,False
+AP Tare,Right hand Bat,Unknown,Wicketkeeper,India,False
+AR Bawne,Right hand Bat,Right arm Offbreak,Middle order Batter,India,False
+AR Patel,Left hand Bat,Slow Left arm Orthodox,Bowling Allrounder,India,True
+AS Joseph,Right hand Bat,Right arm Fast,Bowler,West Indies,False
+AS Rajpoot,Right hand Bat,Right arm Medium,Bowler,India,False
+AS Raut,Right hand Bat,Legbreak Googly,Allrounder,India,False
+AS Roy,Left hand Bat,Slow Left arm Orthodox,Allrounder,India,True
+AS Yadav,Right hand Bat,Right arm Offbreak,Batter,India,False
+AT Carey,Left hand Bat,Unknown,Wicketkeeper Batter,Australia,False
+AT Rayudu,Right hand Bat,Right arm Offbreak,Middle order Batter,India,False
+AU Rashid,Right hand Bat,Legbreak,Bowler,England,False
+AUK Pathan,Right hand Bat,Right arm Medium,Bowler,India,False
+Abdul Basith,Right hand Bat,Right arm Offbreak,Unknown,India,False
+Abdul Samad,Right hand Bat,Legbreak,Batter,India,True
+Abdur Razzak,Left hand Bat,Slow Left arm Orthodox,Bowler,Bangladesh,False
+Abhinandan Singh,Unknown,Unknown,Unknown,Unknown,True
+Abhishek Sharma,Left hand Bat,Slow Left arm Orthodox,Allrounder,India,True
+Abishek Porel,Left hand Bat,Unknown,Wicketkeeper Batter,India,True
+Akash Deep,Right hand Bat,Right arm Fast medium,Bowling Allrounder,India,False
+Akash Madhwal,Right hand Bat,Right arm Medium fast,Bowler,India,False
+Akash Singh,Right hand Bat,Left arm Medium fast,Bowler,India,True
+Akshat Raghuwanshi,Right hand Bat,Right arm Offbreak,Unknown,India,True
+Aman Hakim Khan,Right hand Bat,Right arm Medium,Bowler,India,False
+Anand Rajan,Right hand Bat,Right arm Medium,Bowler,India,False
+Aniket Verma,Right-hand bat,Right-arm medium-fast,Unknown,India,True
+Anirudh Singh,Left hand Bat,Right arm Medium,Unknown,India,False
+Ankit Sharma,Left hand Bat,Slow Left arm Orthodox,Bowler,India,False
+Ankit Soni,Right hand Bat,Legbreak,Allrounder,India,False
+Anmolpreet Singh,Right hand Bat,Right arm Offbreak,Batter,India,False
+Anuj Rawat,Left hand Bat,Unknown,Wicketkeeper Batter,India,False
+Anureet Singh,Right hand Bat,Right arm Medium,Bowler,India,False
+Arjun Tendulkar,Left hand Bat,Left arm Medium fast,Bowler,India,True
+Arshad Khan,Right hand Bat,Right arm Offbreak,Bowler,Pakistan,True
+Arshad Khan (2),Left hand Bat,Left arm Medium,Bowler,India,False
+Arshdeep Singh,Left hand Bat,Left arm Medium fast,Bowler,India,True
+Ashok Sharma,Unknown,Unknown,Unknown,Unknown,True
+Ashutosh Sharma,Right hand Bat,Unknown,Unknown,India,True
+Ashwani Kumar,Left hand Bat,Left arm Medium,Unknown,India,True
+Atharva Taide,Left hand Bat,Slow Left arm Orthodox,Batting Allrounder,India,False
+Auqib Nabi,Right hand Bat,Right arm Medium,Unknown,India,True
+Avesh Khan,Right hand Bat,Right arm Fast medium,Bowler,India,True
+Azhar Mahmood,Right hand Bat,Right arm Fast medium,Bowling Allrounder,Pakistan,False
+Azmatullah Omarzai,Right hand Bat,Right arm Medium fast,Allrounder,Afghanistan,True
+B Akhil,Right hand Bat,Right arm Medium fast,Bowler,India,False
+B Chipli,Right hand Bat,Right arm Medium,Batter,India,False
+B Geeves,Right hand Bat,Right arm Fast medium,Bowler,Australia,False
+B Indrajith,Right hand Bat,Legbreak Googly,Top order Batter,India,False
+B Kumar,Right hand Bat,Right arm Medium,Bowler,India,True
+B Laughlin,Right hand Bat,Right arm Fast medium,Bowler,Australia,False
+B Lee,Right hand Bat,Right arm Fast,Bowler,Australia,False
+B Muzarabani,Right hand Bat,Right arm Fast medium,Bowler,Zimbabwe,True
+B Sai Sudharsan,Left hand Bat,Legbreak,Top order Batter,India,True
+B Stanlake,Left hand Bat,Right arm Fast,Bowler,Australia,False
+B Sumanth,Right hand Bat,Right arm Medium fast,Middle order Batter,India,False
+BA Bhatt,Left hand Bat,Slow Left arm Orthodox,Bowler,India,False
+BA Stokes,Left hand Bat,Right arm Fast medium,Allrounder,England,False
+BAW Mendis,Right hand Bat,Right arm Offbreak,Bowler,Sri Lanka,False
+BB McCullum,Right hand Bat,"Right arm Medium, Right arm Offbreak",Wicketkeeper Batter,New Zealand,False
+BB Samantray,Right hand Bat,Right arm Medium,Allrounder,India,False
+BB Sran,Left hand Bat,Left arm Medium,Bowler,India,False
+BCJ Cutting,Right hand Bat,Right arm Fast medium,Allrounder,Australia,False
+BE Hendricks,Left hand Bat,Left arm Fast medium,Bowler,South Africa,False
+BJ Dwarshuis,Left hand Bat,Left arm Fast medium,Bowler,Australia,True
+BJ Haddin,Right hand Bat,Unknown,Wicketkeeper Batter,Australia,False
+BJ Hodge,Right hand Bat,Right arm Offbreak,Top order Batter,Australia,False
+BJ Rohrer,Left hand Bat,Unknown,Middle order Batter,Australia,False
+BKG Mendis,Right hand Bat,Legbreak,Wicketkeeper Batter,Sri Lanka,False
+BMAJ Mendis,Left hand Bat,Legbreak,Allrounder,Sri Lanka,False
+BR Dunk,Left hand Bat,Right arm Offbreak,Wicketkeeper Batter,Australia,False
+BR Sharath,Right hand Bat,Unknown,Wicketkeeper Batter,India,False
+BW Hilfenhaus,Right hand Bat,Right arm Fast medium,Bowler,Australia,False
+Basil Thampi,Right hand Bat,Right arm Fast medium,Bowler,India,False
+Bipul Sharma,Left hand Bat,Slow Left arm Orthodox,Allrounder,India,False
+Brijesh Sharma,Unknown,Unknown,Unknown,Unknown,True
+C Bosch,Right hand Bat,Right arm Fast medium,Allrounder,South Africa,True
+C Connolly,Left hand Bat,Slow Left arm Orthodox,Top order Batter,Australia,True
+C Ganapathy,Right hand Bat,Right arm Medium,Unknown,India,False
+C Green,Right hand Bat,Right arm Fast medium,Batting Allrounder,Australia,True
+C Madan,Right hand Bat,Unknown,Wicketkeeper,India,False
+C Munro,Left hand Bat,Right arm Medium fast,Opening Batter,New Zealand,False
+C Nanda,Right hand Bat,Legbreak,Unknown,India,False
+C Sakariya,Left hand Bat,Left arm Medium fast,Bowler,India,False
+C de Grandhomme,Right hand Bat,Right arm Medium fast,Allrounder,New Zealand,False
+CA Ingram,Left hand Bat,Legbreak,Top order Batter,South Africa,False
+CA Lynn,Right hand Bat,Slow Left arm Orthodox,Batter,Australia,False
+CA Pujara,Right hand Bat,Legbreak,Top order Batter,India,False
+CH Gayle,Left hand Bat,Right arm Offbreak,Allrounder,West Indies,False
+CH Morris,Right hand Bat,Right arm Fast medium,Bowling Allrounder,South Africa,False
+CJ Anderson,Left hand Bat,Left arm Medium fast,Batting Allrounder,New Zealand,False
+CJ Dala,Right hand Bat,Right arm Medium,Bowler,South Africa,False
+CJ Ferguson,Right hand Bat,Right arm Medium,Middle order Batter,Australia,False
+CJ Green,Right hand Bat,Right arm Offbreak,Bowling Allrounder,Australia,False
+CJ Jordan,Right hand Bat,Right arm Fast medium,Bowler,England,False
+CJ McKay,Right hand Bat,Right arm Fast medium,Bowler,Australia,False
+CK Kapugedera,Right hand Bat,Right arm Medium,Middle order Batter,Sri Lanka,False
+CK Langeveldt,Right hand Bat,Right arm Fast medium,Bowler,South Africa,False
+CL White,Right hand Bat,Legbreak Googly,Middle order Batter,Australia,False
+CM Gautam,Right hand Bat,Unknown,Wicketkeeper,India,False
+CR Brathwaite,Right hand Bat,Right arm Fast medium,Allrounder,West Indies,False
+CR Woakes,Right hand Bat,Right arm Fast medium,Allrounder,England,False
+CRD Fernando,Right hand Bat,Right arm Fast medium,Bowler,Sri Lanka,False
+CV Varun,Right hand Bat,Legbreak Googly,Bowler,India,True
+D Brevis,Right hand Bat,Legbreak,Batting Allrounder,South Africa,True
+D Ferreira,Right hand Bat,Unknown,Allrounder,South Africa,True
+D Jansen,Left hand Bat,Left arm Medium,Unknown,Isle of Man,False
+D Kalyankrishna,Right hand Bat,Right arm Medium fast,Unknown,India,False
+D Madushanka,Right hand Bat,Left arm Medium fast,Bowler,Sri Lanka,True
+D Padikkal,Left hand Bat,Right arm Offbreak,Top order Batter,India,True
+D Pretorius,Right hand Bat,Right arm Medium fast,Bowling Allrounder,South Africa,False
+D Salunkhe,Right hand Bat,Legbreak,Bowler,India,False
+D Wiese,Right hand Bat,Right arm Medium fast,Allrounder,Namibia,False
+D du Preez,Right hand Bat,Right arm Fast medium,Unknown,South Africa,False
+DA Miller,Left hand Bat,Right arm Offbreak,Middle order Batter,South Africa,True
+DA Payne,Right hand Bat,Left arm Fast medium,Bowler,England,True
+DA Warner,Left hand Bat,Legbreak,Opening Batter,Australia,False
+DAJ Bracewell,Right hand Bat,Right arm Fast medium,Bowler,New Zealand,False
+DB Das,Right hand Bat,Legbreak Googly,Top order Batter,India,False
+DB Ravi Teja,Right hand Bat,Legbreak Googly,Batter,India,False
+DE Bollinger,Left hand Bat,Left arm Fast medium,Bowler,Australia,False
+DG Nalkande,Right hand Bat,Right arm Fast medium,Bowler,India,False
+DH Yagnik,Left hand Bat,Unknown,Wicketkeeper,India,False
+DJ Bravo,Right hand Bat,Right arm Medium,Allrounder,West Indies,False
+DJ Harris,Right hand Bat,Right arm Medium,Unknown,Australia,False
+DJ Hooda,Right hand Bat,Right arm Offbreak,Allrounder,India,False
+DJ Hussey,Right hand Bat,Right arm Offbreak,Allrounder,Australia,False
+DJ Jacobs,Right hand Bat,Right arm Medium,Wicketkeeper Batter,South Africa,False
+DJ Malan,Left hand Bat,Legbreak,Top order Batter,England,False
+DJ Mitchell,Right hand Bat,Right arm Medium,Allrounder,New Zealand,False
+DJ Muthuswami,Right hand Bat,Right arm Medium,Unknown,India,False
+DJ Thornely,Right hand Bat,"Right arm Medium, Right arm Offbreak",Top order Batter,Australia,False
+DJ Willey,Left hand Bat,Left arm Fast medium,Bowling Allrounder,England,False
+DJG Sammy,Right hand Bat,Right arm Medium,Allrounder,West Indies,False
+DJM Short,Left hand Bat,Left arm Wrist spin,Opening Batter,Australia,False
+DL Chahar,Right hand Bat,Right arm Medium,Bowler,India,True
+DL Vettori,Left hand Bat,Slow Left arm Orthodox,Allrounder,New Zealand,False
+DM Bravo,Left hand Bat,Right arm Medium,Top order Batter,West Indies,False
+DNT Zoysa,Left hand Bat,Left arm Fast medium,Bowler,Sri Lanka,False
+DP Conway,Left hand Bat,Right arm Medium,Wicketkeeper Batter,New Zealand,False
+DP Nannes,Right hand Bat,Left arm Fast,Bowler,Australia,False
+DP Vijaykumar,Right hand Bat,Right arm Medium,Unknown,India,False
+DPMD Jayawardene,Right hand Bat,Right arm Medium,Batter,Sri Lanka,False
+DR Martyn,Right hand Bat,Right arm Medium,Top order Batter,Australia,False
+DR Sams,Right hand Bat,Left arm Fast medium,Allrounder,Australia,False
+DR Shorey,Right hand Bat,Right arm Offbreak,Top order Batter,India,False
+DR Smith,Right hand Bat,Right arm Medium,Allrounder,West Indies,False
+DS Kulkarni,Right hand Bat,Right arm Medium,Bowler,India,False
+DS Lehmann,Left hand Bat,Slow Left arm Orthodox,Top order Batter,Australia,False
+DS Rathi,Unknown,Unknown,Unknown,Unknown,True
+DT Christian,Right hand Bat,Right arm Fast medium,Allrounder,Australia,False
+DT Patil,Right hand Bat,Unknown,Unknown,India,False
+DV Malewar,Unknown,Unknown,Unknown,Unknown,True
+DW Steyn,Right hand Bat,Right arm Fast,Bowler,South Africa,False
+Dhruv Jurel,Right hand Bat,Unknown,Wicketkeeper Batter,India,True
+E Lewis,Left hand Bat,Unknown,Opening Batter,West Indies,False
+E Malinga,Left-hand bat,Right-arm fast-medium,Unknown,Sri Lanka,True
+EJG Morgan,Left hand Bat,Right arm Medium,Middle order Batter,England,False
+ER Dwivedi,Right hand Bat,Unknown,Wicketkeeper,India,False
+F Behardien,Right hand Bat,Right arm Fast medium,Batting Allrounder,South Africa,False
+F du Plessis,Right hand Bat,Legbreak,Middle order Batter,South Africa,False
+FA Allen,Right hand Bat,Slow Left arm Orthodox,Bowling Allrounder,West Indies,False
+FH Allen,Right hand Bat,Unknown,Top order Batter,New Zealand,True
+FH Edwards,Right hand Bat,Right arm Fast,Bowler,West Indies,False
+FY Fazal,Left hand Bat,Right arm Medium,Opening Batter,India,False
+Fazalhaq Farooqi,Right hand Bat,Left arm Fast medium,Bowler,Afghanistan,False
+G Coetzee,Right hand Bat,Right arm Fast,Bowler,South Africa,False
+G Gambhir,Left hand Bat,Legbreak,Top order Batter,India,False
+GB Hogg,Left hand Bat,Left arm Wrist spin,Allrounder,Australia,False
+GC Smith,Left hand Bat,Right arm Offbreak,Opening Batter,South Africa,False
+GC Viljoen,Right hand Bat,Right arm Fast,Bowler,South Africa,False
+GD McGrath,Right hand Bat,Right arm Fast medium,Bowler,Australia,False
+GD Phillips,Right hand Bat,Right arm Offbreak,Wicketkeeper Batter,New Zealand,True
+GF Linde,Left hand Bat,Slow Left arm Orthodox,Allrounder,South Africa,True
+GH Vihari,Right hand Bat,Right arm Offbreak,Batting Allrounder,India,False
+GHS Garton,Left hand Bat,Left arm Fast,Bowling Allrounder,England,False
+GJ Bailey,Right hand Bat,Right arm Medium,Top order Batter,Australia,False
+GJ Maxwell,Right hand Bat,Right arm Offbreak,Batting Allrounder,Australia,False
+GR Napier,Right hand Bat,Right arm Medium,Bowling Allrounder,England,False
+GS Sandhu,Left hand Bat,Right arm Fast medium,Bowler,Australia,False
+Gagandeep Singh,Right hand Bat,Right arm Medium fast,Unknown,India,False
+Gulbadin Naib,Right hand Bat,Right arm Medium fast,Batting Allrounder,Afghanistan,False
+Gurjapneet Singh,Unknown,Unknown,Unknown,Unknown,True
+Gurkeerat Singh,Right hand Bat,Right arm Offbreak,Middle order Batter,India,False
+Gurnoor Brar,Left hand Bat,Right arm Fast,Bowler,India,False
+H Das,Right hand Bat,Unknown,Unknown,India,False
+H Klaasen,Right hand Bat,Right arm Offbreak,Wicketkeeper Batter,South Africa,True
+H Sharma,Right hand Bat,Legbreak,Bowler,India,False
+HC Brook,Right hand Bat,Right arm Medium,Batter,England,False
+HE van der Dussen,Right hand Bat,Legbreak,Top order Batter,South Africa,False
+HF Gurney,Right hand Bat,Left arm Fast medium,Bowler,England,False
+HH Gibbs,Right hand Bat,Right arm Bowler,Opening Batter,South Africa,False
+HH Pandya,Right hand Bat,Right arm Medium fast,Allrounder,India,True
+HM Amla,Right hand Bat,"Right arm Medium, Right arm Offbreak",Top order Batter,South Africa,False
+HR Shokeen,Right hand Bat,Right arm Offbreak,Bowler,India,False
+HV Patel,Right hand Bat,Right arm Medium,Bowler,India,True
+Harbhajan Singh,Right hand Bat,Right arm Offbreak,Bowler,India,False
+Harmeet Singh,Right hand Bat,Right arm Medium,Bowler,India,False
+Harmeet Singh (2),Left hand Bat,Slow Left arm Orthodox,Unknown,India,False
+Harpreet Brar,Left hand Bat,Slow Left arm Orthodox,Bowler,India,True
+Harpreet Singh,Left hand Bat,Right arm Medium,Batter,India,False
+Harsh Dubey,Left hand Bat,Slow Left arm Orthodox,Unknown,India,True
+Harshit Rana,Right hand Bat,Right arm Medium fast,Bowler,India,False
+Himmat Singh,Right hand Bat,Right arm Offbreak,Batter,India,True
+I Malhotra,Right hand Bat,Right arm Medium fast,Bowler,India,False
+I Sharma,Right hand Bat,Right arm Fast medium,Bowler,India,False
+I Udana,Right hand Bat,Left arm Medium fast,Allrounder,Sri Lanka,False
+IC Pandey,Right hand Bat,Right arm Medium,Bowler,India,False
+IC Porel,Right hand Bat,Right arm Medium,Bowler,India,False
+IK Pathan,Left hand Bat,Left arm Medium fast,Allrounder,India,False
+IR Jaggi,Right hand Bat,Legbreak Googly,Batter,India,False
+IS Sodhi,Right hand Bat,Legbreak,Bowler,New Zealand,False
+Imran Tahir,Right hand Bat,Legbreak Googly,Bowler,South Africa,False
+Iqbal Abdulla,Left hand Bat,Slow Left arm Orthodox,Allrounder,India,False
+Ishan Kishan,Left hand Bat,Unknown,Wicketkeeper Batter,India,True
+J Arunkumar,Right hand Bat,Right arm Offbreak,Unknown,India,False
+J Botha,Right hand Bat,Right arm Offbreak,Allrounder,South Africa,False
+J Fraser-McGurk,Right hand Bat,Legbreak Googly,Batter,Australia,False
+J Little,Right hand Bat,Left arm Fast medium,Bowler,Ireland,False
+J Overton,Right hand Bat,Right arm Fast,Bowling Allrounder,England,True
+J Suchith,Left hand Bat,Slow Left arm Orthodox,Bowler,India,False
+J Syed Mohammad,Left hand Bat,Slow Left arm Orthodox,Bowler,India,False
+J Theron,Right hand Bat,Right arm Medium fast,Bowler,United States of America,False
+J Yadav,Right hand Bat,Right arm Offbreak,Bowler,India,False
+JA Duffy,Right hand Bat,Right arm Fast medium,Bowler,New Zealand,True
+JA Morkel,Left hand Bat,Right arm Medium fast,Bowling Allrounder,South Africa,False
+JA Richardson,Right hand Bat,Right arm Fast,Bowler,Australia,False
+JC Archer,Right hand Bat,Right arm Fast,Bowler,England,True
+JC Buttler,Right hand Bat,Unknown,Wicketkeeper Batter,England,True
+JD Ryder,Left hand Bat,Right arm Medium,Allrounder,New Zealand,False
+JD Unadkat,Right hand Bat,Left arm Medium,Bowler,India,True
+JDP Oram,Left hand Bat,Right arm Fast medium,Allrounder,New Zealand,False
+JDS Neesham,Left hand Bat,Right arm Medium fast,Batting Allrounder,New Zealand,False
+JE Root,Right hand Bat,"Right arm Offbreak, Legbreak",Top order Batter,England,False
+JE Taylor,Right hand Bat,Right arm Fast,Bowler,West Indies,False
+JEC Franklin,Left hand Bat,Left arm Medium,Allrounder,New Zealand,False
+JG Bethell,Left hand Bat,Slow Left arm Orthodox,Batting Allrounder,England,True
+JH Kallis,Right hand Bat,Right arm Fast medium,Allrounder,South Africa,False
+JJ Bumrah,Right hand Bat,Right arm Fast,Bowler,India,True
+JJ Roy,Right hand Bat,Unknown,Opening Batter,England,False
+JJ van der Wath,Right hand Bat,Right arm Medium fast,Allrounder,South Africa,False
+JL Denly,Right hand Bat,Legbreak,Top order Batter,England,False
+JL Pattinson,Left hand Bat,Right arm Fast medium,Bowler,Australia,False
+JM Bairstow,Right hand Bat,Right arm Medium,Wicketkeeper Batter,England,False
+JM Kemp,Right hand Bat,Right arm Fast medium,Bowling Allrounder,South Africa,False
+JM Sharma,Right hand Bat,Unknown,Wicketkeeper Batter,India,True
+JO Holder,Right hand Bat,Right arm Medium fast,Bowling Allrounder,West Indies,True
+JP Behrendorff,Right hand Bat,Left arm Fast medium,Bowler,Australia,False
+JP Duminy,Left hand Bat,Right arm Offbreak,Batting Allrounder,South Africa,False
+JP Faulkner,Right hand Bat,Left arm Fast medium,Bowling Allrounder,Australia,False
+JP Inglis,Right hand Bat,Unknown,Wicketkeeper Batter,Australia,True
+JPR Scantlebury-Searles,Right hand Bat,Right arm Fast medium,Bowling Allrounder,West Indies,False
+JR Hazlewood,Left hand Bat,Right arm Fast medium,Bowler,Australia,True
+JR Hopes,Right hand Bat,Right arm Medium,Allrounder,Australia,False
+JR Philippe,Right hand Bat,Unknown,Wicketkeeper Batter,Australia,False
+JW Hastings,Right hand Bat,Right arm Fast medium,Allrounder,Australia,False
+Jalaj S Saxena,Right hand Bat,"Right arm Offbreak, Legbreak Googly",Allrounder,India,False
+Jaskaran Singh,Right hand Bat,Right arm Medium,Bowler,India,False
+Joginder Sharma,Right hand Bat,Right arm Fast medium,Allrounder,India,False
+K Goel,Left hand Bat,Right arm Offbreak,Opening Batter,India,False
+K Gowtham,Right hand Bat,Right arm Offbreak,Bowling Allrounder,India,False
+K Kartikeya,Right hand Bat,"Slow Left arm Orthodox, Left arm Wrist spin",Bowler,India,False
+K Khejroliya,Left hand Bat,Left arm Medium fast,Bowler,India,True
+K Rabada,Left hand Bat,Right arm Fast,Bowler,South Africa,True
+K Santokie,Left hand Bat,Left arm Medium,Bowler,West Indies,False
+K Upadhyay,Right hand Bat,Right arm Medium,Unknown,India,False
+K Yadav,Left hand Bat,Left arm Fast medium,Bowler,India,False
+KA Jamieson,Right hand Bat,Right arm Fast medium,Bowler,New Zealand,True
+KA Maharaj,Right hand Bat,Slow Left arm Orthodox,Bowler,South Africa,False
+KA Pollard,Right hand Bat,Right arm Medium,Batting Allrounder,West Indies,False
+KAJ Roach,Right hand Bat,Right arm Fast medium,Bowler,West Indies,False
+KB Arun Karthik,Right hand Bat,Legbreak Googly,Wicketkeeper Batter,India,False
+KC Cariappa,Right hand Bat,Legbreak,Bowler,India,False
+KC Sangakkara,Left hand Bat,Right arm Offbreak,Wicketkeeper Batter,Sri Lanka,False
+KD Karthik,Right hand Bat,Right arm Offbreak,Wicketkeeper Batter,India,False
+KH Pandya,Left hand Bat,Slow Left arm Orthodox,Allrounder,India,True
+KJ Abbott,Right hand Bat,Right arm Fast medium,Bowler,South Africa,False
+KK Ahmed,Right hand Bat,Left arm Medium,Bowler,India,True
+KK Cooper,Right hand Bat,Right arm Medium,Allrounder,West Indies,False
+KK Nair,Right hand Bat,Right arm Offbreak,Top order Batter,India,True
+KL Nagarkoti,Right hand Bat,Right arm Fast,Bowler,India,False
+KL Rahul,Right hand Bat,Unknown,Opening Batter,India,True
+KM Asif,Right hand Bat,Right arm Medium,Bowler,India,False
+KM Jadhav,Right hand Bat,Right arm Offbreak,Batting Allrounder,India,False
+KMA Paul,Right hand Bat,Right arm Fast medium,Allrounder,West Indies,False
+KMDN Kulasekara,Right hand Bat,Right arm Fast medium,Bowler,Sri Lanka,False
+KP Appanna,Right hand Bat,Slow Left arm Orthodox,Unknown,India,False
+KP Pietersen,Right hand Bat,Right arm Offbreak,Top order Batter,England,False
+KR Mayers,Left hand Bat,Right arm Medium,Batting Allrounder,West Indies,False
+KR Sen,Right hand Bat,Right arm Fast,Bowler,India,False
+KS Bharat,Right hand Bat,Unknown,Wicketkeeper Batter,India,False
+KS Rathore,Left hand Bat,Unknown,Unknown,India,False
+KS Sharma,Right hand Bat,Right arm Offbreak,Allrounder,India,False
+KS Williamson,Right hand Bat,Right arm Offbreak,Top order Batter,New Zealand,False
+KT Maphaka,Left-hand bat,Left-arm fast,Unknown,South Africa,False
+KV Sharma,Left hand Bat,Legbreak Googly,Bowler,India,False
+KW Richardson,Right hand Bat,Right arm Fast medium,Bowler,Australia,False
+Kamran Akmal,Right hand Bat,Unknown,Wicketkeeper Batter,Pakistan,False
+Kamran Khan,Left hand Bat,Left arm Medium fast,Bowler,India,False
+Karanveer Singh,Right hand Bat,Legbreak Googly,Unknown,India,False
+Karim Janat,Right hand Bat,Right arm Medium,Bowling Allrounder,Afghanistan,False
+Kartik Sharma,Unknown,Unknown,Unknown,Unknown,True
+Kartik Tyagi,Right hand Bat,Right arm Fast,Bowler,India,True
+Krish Bhagat,Unknown,Unknown,Unknown,Unknown,True
+Kuldeep Yadav,Left hand Bat,Left arm Wrist spin,Bowler,India,True
+Kumar Kushagra,Right hand Bat,Unknown,Unknown,India,True
+L Ablish,Right hand Bat,Right arm Medium fast,Bowler,India,False
+L Balaji,Right hand Bat,Right arm Medium fast,Bowler,India,False
+L Ngidi,Right hand Bat,Right arm Fast medium,Bowler,South Africa,True
+L Ronchi,Right hand Bat,Unknown,Wicketkeeper Batter,New Zealand,False
+L Wood,Left hand Bat,Left arm Fast medium,Bowling Allrounder,England,False
+LA Carseldine,Left hand Bat,Left arm Medium,Allrounder,Australia,False
+LA Pomersbach,Left hand Bat,Right arm Offbreak,Batter,Australia,False
+LB Williams,Left hand Bat,Right arm Medium fast,Bowler,South Africa,False
+LE Plunkett,Right hand Bat,Right arm Fast,Bowler,England,False
+LG Pretorius,Left-hand bat,Unknown,Unknown,South Africa,True
+LH Ferguson,Right hand Bat,Right arm Fast,Bowler,New Zealand,True
+LI Meriwala,Left hand Bat,Left arm Fast medium,Bowler,India,False
+LJ Wright,Right hand Bat,Right arm Medium,Top order Batter,England,False
+LMP Simmons,Right hand Bat,Right arm Medium fast,Top order Batter,West Indies,False
+LPC Silva,Right hand Bat,Legbreak,Batter,Sri Lanka,False
+LR Shukla,Right hand Bat,Right arm Medium,Allrounder,India,False
+LRPL Taylor,Right hand Bat,Right arm Offbreak,Middle order Batter,New Zealand,False
+LS Livingstone,Right hand Bat,Legbreak,Batting Allrounder,England,True
+Lalit Yadav,Right hand Bat,Right arm Offbreak,Allrounder,India,False
+Liton Das,Right hand Bat,Right arm Offbreak,Wicketkeeper Batter,Bangladesh,False
+M Ashwin,Right hand Bat,Legbreak Googly,Bowler,India,False
+M Jansen,Right hand Bat,Left arm Fast,Bowling Allrounder,South Africa,True
+M Kaif,Right hand Bat,Right arm Offbreak,Batter,India,False
+M Kartik,Left hand Bat,Slow Left arm Orthodox,Bowler,India,False
+M Klinger,Right hand Bat,Unknown,Batter,Australia,False
+M Manhas,Right hand Bat,Right arm Offbreak,Allrounder,India,False
+M Markande,Right hand Bat,Legbreak,Bowler,India,True
+M Morkel,Left hand Bat,Right arm Fast,Bowler,South Africa,False
+M Muralitharan,Right hand Bat,Right arm Offbreak,Bowler,Sri Lanka,False
+M Ntini,Right hand Bat,Right arm Fast,Bowler,South Africa,False
+M Pathirana,Right hand Bat,Right arm Medium,Bowler,Sri Lanka,True
+M Prasidh Krishna,Right hand Bat,Right arm Fast medium,Bowler,India,True
+M Rawat,Right hand Bat,Unknown,Wicketkeeper Batter,India,False
+M Shahrukh Khan,Right hand Bat,Right arm Offbreak,Batter,India,True
+M Siddharth,Right hand Bat,Slow Left arm Orthodox,Bowler,India,True
+M Theekshana,Right hand Bat,Right arm Offbreak,Bowler,Sri Lanka,False
+M Tiwari,Unknown,Unknown,Unknown,Unknown,True
+M Vijay,Right hand Bat,Right arm Offbreak,Opening Batter,India,False
+M Vohra,Right hand Bat,Right arm Medium,Opening Batter,India,False
+M de Lange,Right hand Bat,Right arm Fast,Bowler,South Africa,False
+MA Agarwal,Right hand Bat,Right arm Offbreak,Batter,India,False
+MA Khote,Right hand Bat,Right arm Medium,Unknown,India,False
+MA Starc,Left hand Bat,Left arm Fast,Bowler,Australia,True
+MA Wood,Right hand Bat,Right arm Fast,Bowler,England,False
+MB Parmar,Right hand Bat,Right arm Offbreak,Unknown,India,False
+MC Henriques,Right hand Bat,Right arm Fast medium,Allrounder,Australia,False
+MC Juneja,Right hand Bat,Right arm Offbreak,Top order Batter,India,False
+MD Choudhary,Unknown,Unknown,Unknown,Unknown,True
+MD Mishra,Right hand Bat,Right arm Offbreak,Batter,India,False
+MD Shanaka,Right hand Bat,Right arm Medium,Allrounder,Sri Lanka,True
+MDKJ Perera,Left hand Bat,Unknown,Wicketkeeper Batter,Sri Lanka,False
+MEK Hussey,Left hand Bat,Right arm Medium,Middle order Batter,Australia,False
+MF Maharoof,Right hand Bat,Right arm Fast medium,Allrounder,Sri Lanka,False
+MG Bracewell,Left hand Bat,Right arm Offbreak,Batting Allrounder,New Zealand,False
+MG Johnson,Left hand Bat,Left arm Fast,Bowler,Australia,False
+MG Neser,Right hand Bat,Right arm Medium fast,Bowling Allrounder,Australia,False
+MJ Clarke,Right hand Bat,Slow Left arm Orthodox,Middle order Batter,Australia,False
+MJ Guptill,Right hand Bat,Right arm Offbreak,Opening Batter,New Zealand,False
+MJ Henry,Right hand Bat,Right arm Fast medium,Bowler,New Zealand,True
+MJ Lumb,Left hand Bat,Right arm Medium,Top order Batter,England,False
+MJ McClenaghan,Left hand Bat,Left arm Fast medium,Bowler,New Zealand,False
+MJ Owen,Right hand Bat,Right arm Medium,Middle order Batter,Australia,False
+MJ Santner,Left hand Bat,Slow Left arm Orthodox,Bowling Allrounder,New Zealand,True
+MJ Suthar,Left hand Bat,Slow Left arm Orthodox,Unknown,India,True
+MK Lomror,Left hand Bat,Slow Left arm Orthodox,Allrounder,India,False
+MK Pandey,Right hand Bat,Right arm Medium,Top order Batter,India,True
+MK Tiwary,Right hand Bat,Legbreak Googly,Batter,India,False
+ML Hayden,Left hand Bat,Right arm Medium,Opening Batter,Australia,False
+MM Ali,Left hand Bat,Right arm Offbreak,Batting Allrounder,England,False
+MM Patel,Right hand Bat,Right arm Medium fast,Bowler,India,False
+MM Sharma,Right hand Bat,Right arm Medium,Bowler,India,False
+MN Samuels,Right hand Bat,Right arm Offbreak,Top order Batter,West Indies,False
+MN van Wyk,Right hand Bat,Slow Left arm Orthodox,Wicketkeeper Batter,South Africa,False
+MP Breetzke,Right hand Bat,Unknown,Batter,South Africa,False
+MP Stoinis,Right hand Bat,Right arm Medium,Batting Allrounder,Australia,True
+MP Yadav,Right hand Bat,Right arm Medium fast,Bowler,India,True
+MR Marsh,Right hand Bat,Right arm Medium,Allrounder,Australia,True
+MS Bhandage,Left hand Bat,Right arm Medium fast,Allrounder,India,False
+MS Bisla,Right hand Bat,Unknown,Wicketkeeper,India,False
+MS Dhoni,Right hand Bat,Right arm Medium,Wicketkeeper Batter,India,False
+MS Gony,Right hand Bat,Right arm Medium,Bowler,India,False
+MS Wade,Left hand Bat,Right arm Medium,Wicketkeeper Batter,Australia,False
+MV Boucher,Right hand Bat,Right arm Medium,Wicketkeeper Batter,South Africa,False
+MW Short,Right hand Bat,Right arm Offbreak,Top order Batter,Australia,True
+Mandeep Singh,Right hand Bat,Right arm Medium,Allrounder,India,False
+Mashrafe Mortaza,Right hand Bat,Right arm Fast medium,Bowler,Bangladesh,False
+Mayank Dagar,Right hand Bat,Slow Left arm Orthodox,Bowler,India,False
+Misbah-ul-Haq,Right hand Bat,Legbreak,Middle order Batter,Pakistan,False
+Mohammad Ashraful,Right hand Bat,"Right arm Offbreak, Legbreak",Middle order Batter,Bangladesh,False
+Mohammad Asif,Left hand Bat,Right arm Fast medium,Bowler,Pakistan,False
+Mohammad Hafeez,Right hand Bat,Right arm Offbreak,Allrounder,Pakistan,False
+Mohammad Nabi,Right hand Bat,Right arm Offbreak,Allrounder,Afghanistan,False
+Mohammed Shami,Right hand Bat,Right arm Fast,Bowler,India,True
+Mohammed Siraj,Right hand Bat,Right arm Fast,Bowler,India,True
+Mohit Rathee,Right hand Bat,Legbreak,Allrounder,India,False
+Mohsin Khan,Left hand Bat,Left arm Medium fast,Unknown,Hong Kong,True
+Monu Kumar,Right hand Bat,Right arm Medium,Bowling Allrounder,India,False
+Mujeeb Ur Rahman,Right hand Bat,Right arm Offbreak,Bowler,Afghanistan,False
+Mukesh Choudhary,Left hand Bat,Left arm Medium,Bowler,India,True
+Mukesh Kumar,Right hand Bat,Right arm Medium,Bowler,India,True
+Musheer Khan,Unknown,Unknown,Unknown,Unknown,False
+Mustafizur Rahman,Left hand Bat,Left arm Fast medium,Bowler,Bangladesh,False
+N Burger,Left hand Bat,Left arm Medium fast,Bowling Allrounder,South Africa,True
+N Jagadeesan,Right hand Bat,Unknown,Opening Batter,India,False
+N Pooran,Left hand Bat,Right arm Offbreak,Wicketkeeper Batter,West Indies,True
+N Rana,Left hand Bat,"Right arm Medium, Right arm Offbreak",Middle order Batter,India,True
+N Saini,Right hand Bat,Unknown,Wicketkeeper Batter,India,False
+N Sindhu,Left hand Bat,Slow Left arm Orthodox,Allrounder,India,True
+N Thushara,Right hand Bat,Right arm Medium fast,Bowler,Sri Lanka,False
+N Wadhera,Left hand Bat,Legbreak,Top order Batter,India,True
+NA Saini,Right hand Bat,Right arm Fast,Bowler,India,False
+NB Singh,Right hand Bat,Right arm Medium,Bowler,India,False
+ND Doshi,Right hand Bat,Slow Left arm Orthodox,Bowler,England,False
+NJ Maddinson,Left hand Bat,Slow Left arm Orthodox,Opening Batter,Australia,False
+NJ Rimmington,Right hand Bat,Right arm Fast medium,Bowler,Australia,False
+NL McCullum,Right hand Bat,Right arm Offbreak,Bowler,New Zealand,False
+NLTC Perera,Left hand Bat,Right arm Medium fast,Bowling Allrounder,Sri Lanka,False
+NM Coulter-Nile,Right hand Bat,Right arm Fast,Bowling Allrounder,Australia,False
+NS Naik,Right hand Bat,Unknown,Wicketkeeper Batter,India,False
+NT Ellis,Right hand Bat,Right arm Fast medium,Bowler,Australia,False
+NV Ojha,Right hand Bat,Unknown,Wicketkeeper Batter,India,False
+Naman Dhir,Right-hand bat,Right-arm offbreak,Unknown,India,True
+Navdeep Saini,Unknown,Unknown,Unknown,Unknown,True
+Naveen-ul-Haq,Right hand Bat,Right arm Medium fast,Bowler,Afghanistan,False
+Niraj Patel,Left hand Bat,Unknown,Allrounder,India,False
+Nithish Kumar Reddy,Right hand Bat,Right arm Medium fast,Batting Allrounder,India,True
+Noor Ahmad,Right hand Bat,Left arm Wrist spin,Bowler,Afghanistan,True
+O Thomas,Left hand Bat,Right arm Fast,Bowler,West Indies,False
+OA Shah,Right hand Bat,Right arm Offbreak,Batter,England,False
+OC McCoy,Left hand Bat,Left arm Fast medium,Bowler,West Indies,False
+OF Smith,Right hand Bat,Right arm Fast medium,Bowling Allrounder,West Indies,False
+P Amarnath,Right hand Bat,Right arm Medium,Unknown,India,False
+P Awana,Right hand Bat,Right arm Medium,Bowler,India,False
+P Chopra,Right hand Bat,Legbreak Googly,Opening Batter,India,False
+P Dogra,Right hand Bat,Legbreak,Batter,India,False
+P Dubey,Right hand Bat,Legbreak Googly,Bowler,India,False
+P Kumar,Right hand Bat,Right arm Medium,Bowler,India,False
+P Negi,Left hand Bat,Slow Left arm Orthodox,Bowler,India,False
+P Nissanka,Right hand Bat,Unknown,Top order Batter,Sri Lanka,True
+P Parameswaran,Right hand Bat,Left arm Medium,Unknown,India,False
+P Prasanth,Left hand Bat,Slow Left arm Orthodox,Allrounder,India,False
+P Ray Barman,Right hand Bat,Legbreak Googly,Bowler,India,False
+P Sahu,Right hand Bat,Legbreak Googly,Allrounder,India,False
+P Simran Singh,Right hand Bat,Unknown,Wicketkeeper Batter,India,True
+P Suyal,Right hand Bat,Left arm Medium,Bowler,India,False
+PA Patel,Left hand Bat,Right arm Offbreak,Wicketkeeper Batter,India,False
+PA Reddy,Right hand Bat,Legbreak,Opening Batter,India,False
+PBB Rajapaksa,Left hand Bat,Right arm Medium,Top order Batter,Sri Lanka,False
+PC Valthaty,Right hand Bat,Right arm Medium,Batter,India,False
+PD Collingwood,Right hand Bat,Right arm Medium,Allrounder,England,False
+PD Salt,Right hand Bat,Right arm Offbreak,Wicketkeeper Batter,England,True
+PH Solanki,Right hand Bat,Legbreak,Bowler,India,False
+PHKD Mendis,Left hand Bat,"Right arm Offbreak, Slow Left arm Orthodox",Allrounder,Sri Lanka,False
+PJ Cummins,Right hand Bat,Right arm Fast,Bowler,Australia,True
+PJ Sangwan,Right hand Bat,Left arm Medium,Bowler,India,False
+PK Garg,Right hand Bat,Right arm Medium,Top order Batter,India,False
+PM Sarvesh Kumar,Right hand Bat,Right arm Medium,Unknown,India,False
+PN Mankad,Right hand Bat,Right arm Medium,Allrounder,India,False
+PP Chawla,Left hand Bat,Legbreak,Bowling Allrounder,India,False
+PP Hinge,Unknown,Unknown,Unknown,Unknown,True
+PP Ojha,Left hand Bat,Slow Left arm Orthodox,Bowler,India,False
+PP Shaw,Right hand Bat,Right arm Offbreak,Opening Batter,India,False
+PR Shah,Right hand Bat,Unknown,Wicketkeeper Batter,India,False
+PR Veer,Right-hand bat,Slow left-arm orthodox,Unknown,India,True
+PSP Handscomb,Right hand Bat,Unknown,Batter,Australia,False
+PV Tambe,Right hand Bat,Legbreak,Bowler,India,False
+PVD Chameera,Right hand Bat,Right arm Fast,Bowler,Sri Lanka,True
+PVSN Raju,Unknown,Unknown,Unknown,Unknown,False
+PWA Mulder,Right hand Bat,Right arm Medium,Allrounder,South Africa,False
+PWH de Silva,Right hand Bat,Legbreak,Allrounder,Sri Lanka,False
+Pankaj Singh,Right hand Bat,Right arm Medium fast,Bowler,India,False
+Parvez Rasool,Right hand Bat,Right arm Offbreak,Bowling Allrounder,India,False
+Prince Yadav,Right-hand bat,Right-arm fast,Unknown,India,True
+Priyansh Arya,Left hand Bat,Right arm Offbreak,Unknown,India,True
+Q de Kock,Left hand Bat,Unknown,Wicketkeeper Batter,South Africa,True
+R Ashwin,Right hand Bat,Right arm Offbreak,Bowling Allrounder,India,False
+R Bhatia,Right hand Bat,Right arm Medium fast,Allrounder,India,False
+R Bishnoi,Right hand Bat,Right arm Medium fast,Middle order Batter,India,False
+R Dhawan,Right hand Bat,Right arm Medium fast,Allrounder,India,False
+R Dravid,Right hand Bat,Right arm Offbreak,Top order Batter,India,False
+R Goyal,Left hand Bat,Left arm Wrist spin,Bowler,India,False
+R McLaren,Left hand Bat,Right arm Medium fast,Allrounder,South Africa,False
+R Minz,Unknown,Unknown,Unknown,Unknown,True
+R Ninan,Right hand Bat,Right arm Offbreak,Allrounder,India,False
+R Parag,Right hand Bat,Legbreak,Top order Batter,India,True
+R Powell,Right hand Bat,Right arm Medium fast,Middle order Batter,West Indies,True
+R Rampaul,Left hand Bat,Right arm Fast medium,Bowler,West Indies,False
+R Ravindra,Left hand Bat,Slow Left arm Orthodox,Batting Allrounder,New Zealand,False
+R Sai Kishore,Left hand Bat,Slow Left arm Orthodox,Bowler,India,True
+R Sanjay Yadav,Left hand Bat,Slow Left arm Orthodox,Allrounder,India,False
+R Sathish,Right hand Bat,Right arm Medium,Allrounder,India,False
+R Sharma,Right hand Bat,Legbreak Googly,Bowler,India,False
+R Shepherd,Right hand Bat,Right arm Fast medium,Bowling Allrounder,West Indies,True
+R Shukla,Right hand Bat,Right arm Medium,Bowler,India,False
+R Smaran,Unknown,Unknown,Unknown,Unknown,True
+R Tewatia,Left hand Bat,Legbreak,Bowling Allrounder,India,True
+R Vinay Kumar,Right hand Bat,Right arm Medium,Bowler,India,False
+RA Bawa,Left hand Bat,Right arm Medium fast,Allrounder,India,True
+RA Jadeja,Left hand Bat,Slow Left arm Orthodox,Allrounder,India,True
+RA Shaikh,Left hand Bat,Left arm Medium,Unknown,India,False
+RA Tripathi,Right hand Bat,Right arm Medium,Top order Batter,India,False
+RD Chahar,Right hand Bat,Legbreak Googly,Bowler,India,True
+RD Gaikwad,Right hand Bat,Right arm Offbreak,Batter,India,True
+RD Rickelton,Left hand Bat,Unknown,Wicketkeeper Batter,South Africa,True
+RE Levi,Right hand Bat,Right arm Medium,Opening Batter,South Africa,False
+RE van der Merwe,Right hand Bat,Slow Left arm Orthodox,Allrounder,Netherlands,False
+RG More,Right hand Bat,Right arm Medium,Bowler,India,False
+RG Sharma,Right hand Bat,Right arm Offbreak,Top order Batter,India,True
+RJ Gleeson,Right hand Bat,Right arm Fast medium,Bowler,England,False
+RJ Harris,Right hand Bat,Right arm Fast,Bowler,Australia,False
+RJ Peterson,Left hand Bat,Slow Left arm Orthodox,Bowler,South Africa,False
+RJ Quiney,Left hand Bat,Right arm Medium,Batter,Australia,False
+RJW Topley,Right hand Bat,Left arm Fast medium,Bowler,England,False
+RK Bhui,Right hand Bat,Legbreak Googly,Top order Batter,India,False
+RK Singh,Left hand Bat,Right arm Offbreak,Middle order Batter,India,True
+RM Patidar,Right hand Bat,Right arm Offbreak,Top order Batter,India,True
+RN ten Doeschate,Right hand Bat,Right arm Medium fast,Allrounder,Netherlands,False
+RP Meredith,Right hand Bat,Right arm Fast,Bowler,Australia,False
+RP Singh,Right hand Bat,Left arm Fast medium,Bowler,India,False
+RR Bhatkal,Right hand Bat,Right arm Medium,Allrounder,India,False
+RR Bose,Right hand Bat,Right arm Fast medium,Unknown,India,False
+RR Pant,Left hand Bat,Unknown,Wicketkeeper Batter,India,True
+RR Powar,Right hand Bat,Right arm Offbreak,Bowler,India,False
+RR Raje,Right hand Bat,Right arm Fast medium,Unknown,India,False
+RR Rossouw,Left hand Bat,Right arm Offbreak,Top order Batter,South Africa,False
+RR Sarwan,Right hand Bat,Legbreak,Batter,West Indies,False
+RS Bopara,Right hand Bat,Right arm Medium,Batting Allrounder,England,False
+RS Gavaskar,Left hand Bat,Slow Left arm Orthodox,Unknown,India,False
+RS Ghosh,Unknown,Unknown,Unknown,Unknown,True
+RS Hangargekar,Right hand Bat,Right arm Medium,Bowling Allrounder,India,False
+RS Sodhi,Right hand Bat,Right arm Medium,Unknown,India,False
+RT Ponting,Right hand Bat,Right arm Medium,Top order Batter,Australia,False
+RV Gomez,Right hand Bat,Right arm Medium,Allrounder,India,False
+RV Patel,Right hand Bat,Right arm Medium fast,Middle order Batter,India,False
+RV Uthappa,Right hand Bat,Right arm Medium,Batter,India,False
+RW Price,Right hand Bat,Slow Left arm Orthodox,Bowler,Zimbabwe,False
+Raghu Sharma,Right hand Bat,Legbreak Googly,Unknown,India,True
+Rahmanullah Gurbaz,Right hand Bat,Unknown,Wicketkeeper Batter,Afghanistan,False
+Ramandeep Singh,Right hand Bat,Right arm Medium,Middle order Batter,India,True
+Rashid Khan,Right hand Bat,Legbreak Googly,Bowling Allrounder,Afghanistan,True
+Rasikh Salam,Right hand Bat,Right arm Medium,Bowler,India,True
+Ravi Bishnoi,Right hand Bat,Legbreak Googly,Bowler,India,True
+Ravi Singh,Unknown,Unknown,Unknown,Unknown,True
+S Anirudha,Right hand Bat,Unknown,Top order Batter,India,False
+S Aravind,Left hand Bat,Left arm Medium fast,Bowler,India,False
+S Arora,Left hand Bat,Unknown,Unknown,India,True
+S Badree,Right hand Bat,Legbreak,Bowler,West Indies,False
+S Badrinath,Right hand Bat,Right arm Offbreak,Middle order Batter,India,False
+S Chanderpaul,Left hand Bat,Legbreak,Batter,West Indies,False
+S Dhawan,Left hand Bat,Right arm Offbreak,Opening Batter,India,False
+S Dube,Left hand Bat,Right arm Medium,Allrounder,India,True
+S Gopal,Right hand Bat,Legbreak,Allrounder,India,False
+S Joseph,Left-hand bat,Right-arm fast,Unknown,West Indies,False
+S Kaul,Right hand Bat,Right arm Medium,Bowler,India,False
+S Kaushik,Right hand Bat,Left arm Wrist spin,Bowler,India,False
+S Ladda,Right hand Bat,Legbreak,Bowler,India,False
+S Lamichhane,Right hand Bat,Legbreak Googly,Bowler,Nepal,False
+S Midhun,Right hand Bat,Legbreak Googly,Bowler,India,False
+S Nadeem,Right hand Bat,Slow Left arm Orthodox,Bowler,India,False
+S Narwal,Left hand Bat,Right arm Medium,Allrounder,India,False
+S Rana,Right hand Bat,Right arm Medium fast,Bowler,India,False
+S Randiv,Right hand Bat,Right arm Offbreak,Bowler,Sri Lanka,False
+S Sandeep Warrier,Right hand Bat,Right arm Medium,Bowler,India,False
+S Sohal,Right hand Bat,Legbreak,Batter,United States of America,False
+S Sreesanth,Right hand Bat,Right arm Fast medium,Bowler,India,False
+S Sriram,Left hand Bat,Slow Left arm Orthodox,Middle order Batter,India,False
+S Tyagi,Right hand Bat,Right arm Medium,Bowler,India,False
+S Vidyut,Left hand Bat,Slow Left arm Orthodox,Batting Allrounder,India,False
+SA Abbott,Right hand Bat,Right arm Fast medium,Allrounder,Australia,False
+SA Asnodkar,Right hand Bat,Right arm Offbreak,Batter,India,False
+SA Yadav,Right hand Bat,"Right arm Medium, Right arm Offbreak",Batter,India,True
+SB Bangar,Right hand Bat,Right arm Medium fast,Unknown,India,False
+SB Dubey,Left hand Bat,Right arm Offbreak,Middle order Batter,India,True
+SB Jakati,Left hand Bat,Slow Left arm Orthodox,Bowler,India,False
+SB Joshi,Left hand Bat,Slow Left arm Orthodox,Allrounder,India,False
+SB Styris,Right hand Bat,Right arm Medium,Allrounder,New Zealand,False
+SB Wagh,Left hand Bat,Left arm Medium fast,Allrounder,India,False
+SC Ganguly,Left hand Bat,Right arm Medium,Batter,India,False
+SC Kuggeleijn,Right hand Bat,Right arm Fast medium,Bowling Allrounder,New Zealand,False
+SD Chitnis,Right hand Bat,Right arm Offbreak,Batter,India,False
+SD Hope,Right hand Bat,Unknown,Wicketkeeper Batter,West Indies,False
+SD Lad,Right hand Bat,Right arm Offbreak,Middle order Batter,India,False
+SE Bond,Right hand Bat,Right arm Fast,Bowler,New Zealand,False
+SE Marsh,Left hand Bat,Slow Left arm Orthodox,Top order Batter,Australia,False
+SE Rutherford,Left hand Bat,Right arm Fast medium,Middle order Batter,West Indies,True
+SH Johnson,Left hand Bat,Left arm Fast medium,Bowler,Australia,True
+SJ Srivastava,Right hand Bat,Left arm Fast medium,Bowler,India,False
+SK Raina,Left hand Bat,Right arm Offbreak,Middle order Batter,India,False
+SK Rasheed,Right hand Bat,Legbreak,Unknown,India,False
+SK Trivedi,Right hand Bat,Right arm Medium,Bowler,India,False
+SK Warne,Right hand Bat,Legbreak Googly,Bowler,Australia,False
+SL Malinga,Right hand Bat,Right arm Fast,Bowler,Sri Lanka,False
+SM Boland,Right hand Bat,Right arm Fast medium,Bowler,Australia,False
+SM Curran,Left hand Bat,Left arm Medium fast,Allrounder,England,False
+SM Harwood,Right hand Bat,Right arm Fast medium,Bowler,Australia,False
+SM Katich,Left hand Bat,Left arm Wrist spin,Batter,Australia,False
+SM Pollock,Right hand Bat,Right arm Fast medium,Allrounder,South Africa,False
+SMSM Senanayake,Right hand Bat,Right arm Offbreak,Bowler,Sri Lanka,False
+SN Khan,Right hand Bat,Legbreak,Middle order Batter,India,True
+SN Thakur,Right hand Bat,Right arm Medium,Bowler,India,True
+SO Hetmyer,Left hand Bat,Unknown,Top order Batter,West Indies,True
+SP Fleming,Left hand Bat,Unknown,Top order Batter,New Zealand,False
+SP Goswami,Left hand Bat,Unknown,Wicketkeeper Batter,India,False
+SP Jackson,Right hand Bat,Unknown,Wicketkeeper Batter,India,False
+SP Narine,Left hand Bat,Right arm Offbreak,Bowling Allrounder,West Indies,True
+SPD Smith,Right hand Bat,Legbreak Googly,Middle order Batter,Australia,False
+SR Dubey,Unknown,Unknown,Unknown,Unknown,True
+SR Tendulkar,Right hand Bat,"Right arm Offbreak, Legbreak Googly",Top order Batter,India,False
+SR Watson,Right hand Bat,Right arm Fast medium,Allrounder,Australia,False
+SS Agarwal,Right hand Bat,Legbreak Googly,Unknown,India,False
+SS Cottrell,Right hand Bat,Left arm Fast medium,Bowler,West Indies,False
+SS Iyer,Right hand Bat,"Right arm Offbreak, Legbreak Googly",Top order Batter,India,True
+SS Mishra,Unknown,Unknown,Unknown,Unknown,True
+SS Mundhe,Right hand Bat,Right arm Medium,Allrounder,India,False
+SS Prabhudessai,Right hand Bat,Right arm Medium,Batting Allrounder,India,False
+SS Sarkar,Right hand Bat,Right arm Medium,Bowler,India,False
+SS Shaikh,Right hand Bat,Right arm Medium,Unknown,India,False
+SS Tiwary,Left hand Bat,Unknown,Top order Batter,India,False
+SSB Magala,Right hand Bat,Right arm Fast medium,Bowler,South Africa,False
+ST Jayasuriya,Left hand Bat,Slow Left arm Orthodox,Allrounder,Sri Lanka,False
+STR Binny,Right hand Bat,Right arm Medium,Allrounder,India,False
+SU Parakh,Unknown,Unknown,Unknown,Unknown,True
+SV Samson,Right hand Bat,Unknown,Wicketkeeper Batter,India,True
+SW Billings,Right hand Bat,Unknown,Wicketkeeper Batter,England,False
+SW Tait,Right hand Bat,Right arm Fast,Bowler,Australia,False
+SZ Mulani,Left hand Bat,Slow Left arm Orthodox,Allrounder,India,False
+Sachin Baby,Left hand Bat,Right arm Offbreak,Batter,India,False
+Sakib Hussain,Right hand Bat,Right arm Medium,Unknown,India,True
+Salil Arora,Unknown,Unknown,Unknown,Unknown,True
+Salman Butt,Left hand Bat,Right arm Offbreak,Batter,Pakistan,False
+Sameer Rizvi,Right hand Bat,Right arm Offbreak,Unknown,India,True
+Sandeep Sharma,Right hand Bat,Right arm Medium,Bowler,India,True
+Sanvir Singh,Right hand Bat,Right arm Medium,Allrounder,India,False
+Saurav Chauhan,Left hand Bat,Right arm Offbreak,Unknown,India,False
+Sediqullah Atal,Left hand Bat,Unknown,Opening Batter,Afghanistan,False
+Shahbaz Ahmed,Left hand Bat,Slow Left arm Orthodox,Allrounder,India,True
+Shahid Afridi,Right hand Bat,Legbreak Googly,Allrounder,Pakistan,False
+Shakib Al Hasan,Left hand Bat,Slow Left arm Orthodox,Allrounder,Bangladesh,False
+Shashank Singh,Right hand Bat,"Right arm Medium, Right arm Offbreak",Batting Allrounder,India,True
+Shivam Mavi,Right hand Bat,Right arm Fast medium,Bowler,India,False
+Shivam Sharma,Right hand Bat,Right arm Offbreak,Unknown,India,False
+Shivam Singh,Right-hand bat,Right-arm offbreak,Unknown,India,False
+Shivang Kumar,Unknown,Unknown,Unknown,Unknown,True
+Shoaib Ahmed,Right hand Bat,Right arm Fast medium,Unknown,India,False
+Shoaib Akhtar,Right hand Bat,Right arm Fast,Bowler,Pakistan,False
+Shoaib Malik,Right hand Bat,Right arm Offbreak,Allrounder,Pakistan,False
+Shubman Gill,Right hand Bat,Right arm Offbreak,Opening Batter,India,True
+Sikandar Raza,Right hand Bat,Right arm Offbreak,Batting Allrounder,Zimbabwe,False
+Simarjeet Singh,Right hand Bat,Right arm Medium fast,Bowler,India,False
+Sohail Tanvir,Left hand Bat,Left arm Medium fast,Bowler,Pakistan,False
+Sumit Kumar,Right hand Bat,Right arm Medium fast,Allrounder,India,False
+Sunny Gupta,Right hand Bat,Right arm Offbreak,Unknown,India,False
+Sunny Singh,Right hand Bat,Right arm Medium fast,Batter,India,False
+Suryansh Shedge,Right hand Bat,Unknown,Unknown,India,True
+Suyash Sharma,Right hand Bat,Legbreak Googly,Bowler,India,True
+Swapnil Singh,Right hand Bat,Slow Left arm Orthodox,Bowler,India,False
+T Banton,Right hand Bat,Unknown,Wicketkeeper Batter,England,False
+T Dahiya,Unknown,Unknown,Unknown,Unknown,True
+T Henderson,Right hand Bat,Right arm Fast medium,Bowler,South Africa,False
+T Kohler-Cadmore,Right hand Bat,Right arm Offbreak,Batter,England,False
+T Kohli,Right hand Bat,Right arm Medium,Top order Batter,India,False
+T Natarajan,Left hand Bat,Left arm Medium,Bowler,India,True
+T Shamsi,Right hand Bat,Left arm Wrist spin,Bowler,South Africa,False
+T Stubbs,Right hand Bat,Right arm Offbreak,Wicketkeeper Batter,South Africa,True
+T Taibu,Right hand Bat,Right arm Medium,Wicketkeeper Batter,Zimbabwe,False
+T Thushara,Left hand Bat,Left arm Fast medium,Bowler,Sri Lanka,False
+T Vijay,Right-hand bat,Right-arm offbreak,Unknown,India,True
+TA Boult,Right hand Bat,Left arm Fast medium,Bowler,New Zealand,True
+TD Paine,Right hand Bat,Right arm Medium,Wicketkeeper Batter,Australia,False
+TG Southee,Right hand Bat,Right arm Medium fast,Bowler,New Zealand,False
+TH David,Right hand Bat,Right arm Offbreak,Middle order Batter,Australia,True
+TK Curran,Right hand Bat,Right arm Fast medium,Bowling Allrounder,England,False
+TL Seifert,Right hand Bat,Unknown,Wicketkeeper Batter,New Zealand,True
+TL Suman,Right hand Bat,Right arm Offbreak,Batter,India,False
+TM Dilshan,Right hand Bat,Right arm Offbreak,Allrounder,Sri Lanka,False
+TM Head,Left hand Bat,Right arm Offbreak,Middle order Batter,Australia,True
+TM Srivastava,Left hand Bat,Right arm Medium,Top order Batter,India,False
+TP Sudhindra,Left hand Bat,Right arm Fast,Unknown,India,False
+TR Birt,Left hand Bat,Right arm Medium,Middle order Batter,Australia,False
+TS Mills,Right hand Bat,Left arm Fast,Bowler,England,False
+TU Deshpande,Left hand Bat,Right arm Medium,Bowler,India,True
+Tanush Kotian,Right hand Bat,Right arm Offbreak,Bowling Allrounder,India,False
+Tejas Baroka,Right hand Bat,Legbreak Googly,Bowler,India,False
+Tilak Varma,Left hand Bat,Right arm Offbreak,Batting Allrounder,India,True
+U Kaul,Left hand Bat,Unknown,Wicketkeeper,India,False
+UA Birla,Right hand Bat,Right arm Medium,Unknown,India,False
+UBT Chand,Right hand Bat,Right arm Offbreak,Top order Batter,India,False
+UT Khawaja,Left hand Bat,Right arm Medium,Top order Batter,Australia,False
+UT Yadav,Right hand Bat,Right arm Fast,Bowler,India,False
+Umar Gul,Right hand Bat,Right arm Fast medium,Bowler,Pakistan,False
+Umran Malik,Right hand Bat,Right arm Fast,Bowler,India,False
+Urvil Patel,Right hand Bat,Unknown,Unknown,India,True
+V Kaverappa,Right hand Bat,Right arm Fast medium,Bowler,India,False
+V Kohli,Right hand Bat,Right arm Medium,Top order Batter,India,True
+V Nigam,Right-hand bat,Legbreak,Unknown,India,True
+V Pratap Singh,Right hand Bat,Right arm Medium,Unknown,India,False
+V Puthur,Unknown,Unknown,Unknown,Unknown,False
+V Sehwag,Right hand Bat,Right arm Offbreak,Top order Batter,India,False
+V Shankar,Right hand Bat,Right arm Medium,Allrounder,India,False
+V Suryavanshi,Unknown,Unknown,Unknown,Unknown,True
+V Viyaskanth,Right hand Bat,Legbreak,Bowler,Sri Lanka,False
+VG Arora,Right hand Bat,Right arm Fast medium,Bowler,India,True
+VH Zol,Left hand Bat,Right arm Offbreak,Unknown,India,False
+VR Aaron,Right hand Bat,Right arm Fast,Bowler,India,False
+VR Iyer,Left hand Bat,Right arm Medium,Allrounder,India,True
+VRV Singh,Right hand Bat,Right arm Medium fast,Unknown,India,False
+VS Malik,Right hand Bat,Right arm Medium,Bowler,India,False
+VS Yeligati,Right hand Bat,Right arm Offbreak,Unknown,India,False
+VVS Laxman,Right hand Bat,Right arm Offbreak,Top order Batter,India,False
+VY Mahesh,Right hand Bat,Right arm Medium fast,Allrounder,India,False
+Vijaykumar Vyshak,Right hand Bat,Right arm Medium,Bowler,India,True
+Virat Singh,Left hand Bat,Legbreak Googly,Top order Batter,India,False
+Vishnu Vinod,Right hand Bat,Unknown,Wicketkeeper Batter,India,True
+Vivrant Sharma,Left hand Bat,Legbreak Googly,Unknown,India,False
+W Jaffer,Right hand Bat,Right arm Offbreak,Top order Batter,India,False
+W O'Rourke,Right hand Bat,Right arm Fast medium,Unknown,New Zealand,False
+WA Mota,Right hand Bat,Right arm Medium,Unknown,India,False
+WD Parnell,Left hand Bat,Left arm Medium fast,Bowler,South Africa,False
+WG Jacks,Right hand Bat,Right arm Offbreak,Batter,England,True
+WP Saha,Right hand Bat,Unknown,Wicketkeeper Batter,India,False
+WPUJC Vaas,Left hand Bat,Left arm Fast medium,Bowler,Sri Lanka,False
+Washington Sundar,Left hand Bat,Right arm Offbreak,Bowling Allrounder,India,True
+X Thalaivan Sargunam,Right hand Bat,Right arm Offbreak,Unknown,India,False
+XC Bartlett,Right hand Bat,Right arm Fast medium,Bowler,Australia,True
+Y Gnaneswara Rao,Right hand Bat,Right arm Medium,Allrounder,India,False
+Y Nagar,Right hand Bat,Right arm Offbreak,Allrounder,India,False
+Y Prithvi Raj,Left hand Bat,Left arm Medium,Bowler,India,False
+Y Venugopal Rao,Right hand Bat,Right arm Offbreak,Middle order Batter,India,False
+YA Abdulla,Left hand Bat,Left arm Fast medium,Bowler,South Africa,False
+YBK Jaiswal,Left hand Bat,Legbreak,Opening Batter,India,True
+YK Pathan,Right hand Bat,Right arm Offbreak,Allrounder,India,False
+YS Chahal,Right hand Bat,Legbreak Googly,Bowler,India,True
+YV Dhull,Right hand Bat,Right arm Offbreak,Top order Batter,India,False
+YV Takawale,Right hand Bat,Unknown,Unknown,India,False
+Yash Dayal,Right hand Bat,Left arm Medium fast,Bowler,India,False
+Yash Raj Punja,Unknown,Unknown,Unknown,Unknown,True
+Yash Thakur,Right hand Bat,Right arm Medium,Unknown,India,True
+Yashpal Singh,Right hand Bat,Right arm Medium,Batter,India,False
+Younis Khan,Right hand Bat,"Right arm Medium, Legbreak",Middle order Batter,Pakistan,False
+Yudhvir Singh,Right hand Bat,Right arm Medium fast,Bowler,India,False
+Yuvraj Singh,Left hand Bat,Slow Left arm Orthodox,Middle order Batter,India,False
+Z Khan,Right hand Bat,Left arm Fast medium,Bowler,India,False
+Zeeshan Ansari,Right hand Bat,Legbreak Googly,Unknown,India,False
