@@ -18,13 +18,26 @@ def run_snowflake_feature_engineering():
             schema=os.getenv("SF_SCHEMA")
         )
         cursor = ctx.cursor()
+        cursor.execute("""
+            CREATE TABLE IF NOT EXISTS FEATURE_MATCH_QUEUE (
+                MATCH_ID VARCHAR,
+                QUEUED_AT TIMESTAMP_NTZ
+            )
+        """)
+        cursor.execute("SELECT COUNT(*) FROM FEATURE_MATCH_QUEUE")
+        queued_matches = int(cursor.fetchone()[0])
+        if queued_matches == 0:
+            print("No queued matches found; analytical features are current.")
+            cursor.close()
+            ctx.close()
+            return
         print("✅ Connected to Snowflake Virtual compute clusters.")
     except Exception as e:
         print(f"❌ Connection failed: {e}")
         return
 
     feature_generation_sql = """
-    CREATE OR REPLACE TABLE ANALYTICAL_MATCHUP_FEATURES AS
+    CREATE OR REPLACE TEMPORARY TABLE INCREMENTAL_ANALYTICAL_FEATURES AS
     WITH deduplicated_deliveries AS (
         SELECT *
         FROM RAW_DELIVERIES
@@ -69,20 +82,19 @@ def run_snowflake_feature_engineering():
         SELECT 
             b.MATCH_ID, b.SEASON, b.START_DATE, b.VENUE, b.INNINGS, b.BALL, b.STRIKER, b.NON_STRIKER, b.BOWLER, b.RUNS_OFF_BAT,
             b.IS_WICKET, b.EVENT_TYPE,
-            -- DELIVERY_SEQ is the deterministic tiebreaker: BALL alone repeats for
-            -- wides/no-balls (they don't advance the over.ball counter), so ORDER BY BALL
-            -- alone leaves tied rows in unspecified order.
+            -- DELIVERY_SEQ preserves source chronology. BALL remains a string
+            -- identifier so values such as 23.1 and 23.10 stay distinct.
             SUM(b.TOTAL_BALL_RUNS) OVER (
-                PARTITION BY b.MATCH_ID, b.INNINGS ORDER BY b.BALL, b.DELIVERY_SEQ
+                PARTITION BY b.MATCH_ID, b.INNINGS ORDER BY b.DELIVERY_SEQ
                 ROWS BETWEEN UNBOUNDED PRECEDING AND 1 PRECEDING
             ) as CURRENT_TEAM_SCORE,
             SUM(b.IS_WICKET) OVER (
-                PARTITION BY b.MATCH_ID, b.INNINGS ORDER BY b.BALL, b.DELIVERY_SEQ
+                PARTITION BY b.MATCH_ID, b.INNINGS ORDER BY b.DELIVERY_SEQ
                 ROWS BETWEEN UNBOUNDED PRECEDING AND 1 PRECEDING
             ) as CURRENT_WICKETS_LOST,
             120 - COALESCE(
                 SUM(b.IS_LEGAL_BALL) OVER (
-                    PARTITION BY b.MATCH_ID, b.INNINGS ORDER BY b.BALL, b.DELIVERY_SEQ
+                    PARTITION BY b.MATCH_ID, b.INNINGS ORDER BY b.DELIVERY_SEQ
                     ROWS BETWEEN UNBOUNDED PRECEDING AND 1 PRECEDING
                 ),
                 0
@@ -174,7 +186,8 @@ def run_snowflake_feature_engineering():
         END as CHASE_WON
     FROM running_metrics r
     JOIN match_outcomes o ON r.MATCH_ID = o.MATCH_ID
-    WHERE r.INNINGS IN (1, 2);
+    WHERE r.INNINGS IN (1, 2)
+      AND r.MATCH_ID IN (SELECT MATCH_ID FROM FEATURE_MATCH_QUEUE);
     """
 
     print("⚡ Materializing structural feature targets down to Snowflake storage layers...")
@@ -184,7 +197,7 @@ def run_snowflake_feature_engineering():
             SELECT
                 COUNT_IF(CURRENT_WICKETS_LOST > 10) AS INVALID_WICKET_STATES,
                 COUNT_IF(BALLS_REMAINING < 0 OR BALLS_REMAINING > 120) AS INVALID_BALL_STATES
-            FROM ANALYTICAL_MATCHUP_FEATURES
+            FROM INCREMENTAL_ANALYTICAL_FEATURES
         """)
         invalid_wickets, invalid_balls = cursor.fetchone()
         if invalid_wickets or invalid_balls:
@@ -192,10 +205,32 @@ def run_snowflake_feature_engineering():
                 f"Feature integrity failed: {invalid_wickets} invalid wicket states, "
                 f"{invalid_balls} invalid ball states"
             )
+        cursor.execute("""
+            CREATE TABLE IF NOT EXISTS ANALYTICAL_MATCHUP_FEATURES
+            LIKE INCREMENTAL_ANALYTICAL_FEATURES
+        """)
+        cursor.execute("SELECT COUNT(*) FROM INCREMENTAL_ANALYTICAL_FEATURES")
+        incremental_rows = int(cursor.fetchone()[0])
+        cursor.execute("BEGIN")
+        cursor.execute("""
+            DELETE FROM ANALYTICAL_MATCHUP_FEATURES
+            WHERE MATCH_ID IN (SELECT MATCH_ID FROM FEATURE_MATCH_QUEUE)
+        """)
+        cursor.execute("""
+            INSERT INTO ANALYTICAL_MATCHUP_FEATURES
+            SELECT * FROM INCREMENTAL_ANALYTICAL_FEATURES
+        """)
+        cursor.execute("DELETE FROM FEATURE_MATCH_QUEUE")
+        cursor.execute("COMMIT")
+        print(f"Incrementally materialized {incremental_rows:,} feature rows.")
         cursor.execute("SELECT COUNT(*) FROM ANALYTICAL_MATCHUP_FEATURES;")
         print(f"🎉 Success! Ingested {cursor.fetchone()[0]:,} labeled vectors into ANALYTICAL_MATCHUP_FEATURES.")
     except Exception as e:
         print(f"❌ Feature processing failed: {e}")
+        try:
+            cursor.execute("ROLLBACK")
+        except Exception:
+            pass
     finally:
         cursor.close()
         ctx.close()
