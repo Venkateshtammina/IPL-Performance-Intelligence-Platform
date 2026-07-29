@@ -1,4 +1,4 @@
-# 🏏 IPL Strategy Engine
+# 🏏 IPLIPL Performance Intelligence Platform
 
 An advanced, real-time IPL analytics dashboard that combines **historical cricket data**, **machine learning**, and **interactive visualizations** to provide ball-by-ball insights, live chase win probabilities, and batter-bowler matchup intelligence.
 
